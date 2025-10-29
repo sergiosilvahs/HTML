@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween</title>
+    <style>
+      body {
+        background-color: #7237bf;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      .layout {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 80px;
+      max-width: 1100px;
+      margin: 0 auto;
+      }
+
+      .cima {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box1,
+      .box2 {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      .mesa,
+      .bruxaimg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .texto {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .linha {
+        width: 500px;
+        height: 6px;
+        background-color: white;
+        margin: 10px auto;
+        border-radius: 3px;
+      }
+
+      .direita {
+        width: 150px;
+        gap: 10px;
+      }
+
+      .aboboranomato {
+        width: 500px;
+        height: 600px;
+      }
+      .abobora {
+        background-color: white;
+        width: 500px;
+        height: 700px;
+        border-radius: 10px;
+      }
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .data h3 {
+        margin: 0;
+        font-size: 2em;
+        color: #327dc9;
+      }
+
+      .data h4 {
+        margin: 0;
+        font-size: 1.2em;
+        color: #327dc9;
+      }
+
+      .titulo h5 {
+        margin: 0;
+        color: black;
+        font-size: 1em;
+      }
+      .loginabobora {
+        background-color: white;
+        width: 500px;
+        height: 130px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .aboborafeliz {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="cima">
+        <div class="box1">
+          <img
+            src="https://images.pexels.com/photos/619423/pexels-photo-619423.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="mesa"
+            alt="Mesa com cenas"
+          />
+        </div>
+        <div class="texto">
+          <h1>Design Hipermédia: CSS</h1>
+          <h2>Halloween</h2>
+          <div class="linha"></div>
+        </div>
+        <div class="box2">
+          <img
+            src="https://media.istockphoto.com/id/175195916/photo/halloween-casino-witch-with-smoking-pipe-and-pumpkins.jpg?s=612x612&w=is&k=20&c=vlH2OV6tCuh_h2IwvP0GHks41uKbhBlzucZNhUkiuCA="
+            alt="Bruxa"
+            class="bruxaimg"
+          />
+        </div>
+      </div>
+      <div class="direita">
+        <div class="abobora">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Pumpkins_with_candles_%28Unsplash%29.jpg/1599px-Pumpkins_with_candles_%28Unsplash%29.jpg?20170818192652"
+            alt="Abóbora no mato"
+            class="aboboranomato"
+          />
+          <div class="info">
+            <div class="data">
+              <h3>31</h3>
+              <h4>Out</h4>
+            </div>
+            <div class="titulo">
+              <h5>OS MELHORES WEBSITES DE HALLOWEEN</h5>
+            </div>
+          </div>
+        </div>
+        <div class="loginabobora">
+          <img
+            src="https://img.freepik.com/fotos-gratis/uma-ilustracao-de-uma-abobora-encantadora_157027-4014.jpg"
+            alt="abobora Felix"
+            class="aboborafeliz"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
